@@ -5,9 +5,9 @@ import ShippingForm from "@/components/ShippingForm";
 import { CartItemsType, ShippingFormInputs } from "../../types";
 import { ArrowRight, Trash2 } from "lucide-react";
 import Image from "next/image";
-import { useRouter, useSearchParams } from "next/navigation";
 import { useState } from "react";
 import useCartStore from "@/stores/cartStore";
+import { useRouter, useSearchParams } from "next/navigation";
 
 const steps = [
   {
