@@ -21,7 +21,7 @@ const product: productType = {
 };
 
 export const generateMetadata = async ({
-    params,
+    // params,
   }: {
     params: { id: string };
   }) => {
@@ -34,7 +34,7 @@ export const generateMetadata = async ({
   };
 
 const ProductPage = async ({
-  params,
+//   params,
   searchParams,
 }: {
   params: Promise<{ id: string }>;
@@ -53,6 +53,7 @@ const ProductPage = async ({
           alt={product.name}
           fill
           className="object-contain rounded-md"
+          
         />
       </div>
       {/* details */}
